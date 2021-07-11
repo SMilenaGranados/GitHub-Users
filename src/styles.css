@@ -19,9 +19,6 @@ header {
 
 #aplicationUsers {
     margin-left: 50px;
-    /*display: block;
-    flex-wrap: wrap;
-    flex-direction: row;*/
     justify-content: center;
     background-color: black;
 }
