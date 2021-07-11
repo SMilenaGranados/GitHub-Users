@@ -12,7 +12,7 @@ const dataUrl = dataUsers.map((dataUsers) =>
 );
 
 const showUsers = (data, dato) => {
-  const mainContainer = document.getElementById("ApplicationUsers");
+  const mainContainer = document.getElementById("applicationUsers");
   if (mainContainer.hasChildNodes()) {
     while (mainContainer.childNodes.length >= 1) {
       mainContainer.removeChild(mainContainer.firstChild);
@@ -23,10 +23,10 @@ const showUsers = (data, dato) => {
     div.innerHTML = `
       
       <div id="card-body">
-          <div class="card-image" style="width: 16em;">
+          <div class="card-image">
           <img src="${data[i].avatar_url}" id="img">
-          <h2 class="card-title">${data[i].login}</h2>
-          
+          <h2 class="card-title">User: ${data[i].login}</h2>
+          <h3 class="card-title">${data[i].html_url}</h3>
           </div>
       </div>`;
 
