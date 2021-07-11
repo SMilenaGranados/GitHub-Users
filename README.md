@@ -1,4 +1,4 @@
 # GitHub-Users
 
 ## 1. Contexto
-Aplicación para visualizar datos de usuarios GitHub
+Aplicación desarrollada con HTML, CSS y Vanilla JS, para visualizar datos de usuarios GitHub usando la API (https://api.github.com/)
