@@ -2,7 +2,7 @@
 
 Aplicación que permite visualizar datos de usuarios de GitHub usando la API https://api.github.com/. Desarrollada con HTML, CSS y Vanilla JS. Se genero token de acceso personal para la autorización de la API de cada usuario haciendo uso de la herramienta Postman para consumir la data.
 
-<p align = "center"> <img src="assets/GithubUsers.jpg"></p>
+<p align = "center"> <img src="https://github.com/SMilenaGranados/GitHub-Users/blob/main/src/assets/GithubUsers.jpg"></p>
 
 ### Frontend Developer Challenge
 
