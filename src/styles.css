@@ -1,77 +1,150 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: black;
-    color: white;
-    font-family: 'Otomanopee One', sans-serif;
-    text-align: center;
-    font-size: 50px;
-    padding: 10px;
+  background-color: black;
+  color: white;
+  font-family: "Otomanopee One", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  padding: 10px;
+}
+
+#logoUser {
+  width: 120px;
+  margin-bottom: -15px;
+  margin-left: -15px;
 }
 
 #cardsUsers {
-    background-color: dimgrey ;
-} 
+  background-color: dimgrey;
+}
 
 #aplicationUsers {
-    margin-left: 50px;
-    justify-content: center;
-    background-color: black;
+  margin-left: 0px;
+  justify-content: center;
+  background-color: black;
 }
 
 .row {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25% ;
-}
-
-.row div {
-    padding: 15px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .card-image {
-    width: 300px;
-    height: 290px;
-    background: #F7F7F7;
-    box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.80);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
-    text-align: center;
-    border-radius: 18px;
-    margin-left:  10%;
+  width: 350px;
+  height: 640px;
+  background: #f7f7f7;
+  box-shadow: 0px 18px 18px rgba(0, 0, 0, 0.8);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 18px;
+  margin-left: 15%;
+  margin-top: 12%;
+}
+
+#title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: #330202;
+  border-radius: 18px 18px 0px 0px;
+}
+
+#textLink {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #img {
-    width: 170px;
-    border-radius: 13px 13px 13px 13px;
-    margin: 10px 75px 10px 50px;
-    align-items: center;
+  width: 210px;
+  border-radius: 13px 13px 13px 13px;
+  margin: 10px 70px 0px 70px;
+  align-items: center;
 }
 
-@media screen and (max-width: 1280px) {
-    .row {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-    }
-} 
+#text-name {
+  padding-top: 5px;
+  padding-bottom: 8px;
+  color: #330202;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#text-card {
+  font-size: 15px;
+  text-align: left;
+  padding-left: 45px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+}
+
+#text-numbers {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(221, 220, 220);
+}
+
+@media screen and (max-width: 1500px) {
+  .row {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .card-image {
+    margin-left: 10%;
+    margin-right: 8%;
+  }
+}
 
 @media screen and (max-width: 870px) {
-    .row {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        justify-content: center;
-    }
+  .row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+  }
+  header {
+    font-size: 35px;
+    padding: 15px;
+  }
+
+  #logoUser {
+    width: 80px;
+    margin-bottom: -12px;
+  }
+
+  .card-image {
+    margin-left: 10%;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .row {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  header {
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  #logoUser {
+    width: 60px;
+    margin-bottom: -8px;
+  }
+
+  .card-image {
+    margin-left: 0%;
+  }
 }
-
